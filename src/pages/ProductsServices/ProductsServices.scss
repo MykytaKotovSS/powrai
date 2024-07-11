@@ -44,4 +44,53 @@
       }
     }
   }
+
+  .mining {
+    background: black;
+    color: white;
+
+    .group {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      padding: 60px 0;
+
+      .block {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+
+        h2 {
+          margin: 24px 0;
+        }
+
+        p {
+          text-align: center;
+        }
+
+        .cards {
+          display: flex;
+          gap: 24px;
+
+          .card {
+            width: 100%;
+            height: auto;
+            background: white;
+            color: black;
+            padding: 24px 16px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+
+            p {
+              text-align: start;
+            }
+          }
+        }
+      }
+    }
+  }
 }

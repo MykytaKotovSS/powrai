@@ -4,7 +4,10 @@ import image from "assets/images/productsservices-main-img.svg";
 import { ReactComponent as CardIcon1 } from "assets/icons/productsservices-cards-1.svg";
 import { ReactComponent as CardIcon2 } from "assets/icons/productsservices-cards-2.svg";
 import { ReactComponent as CardIcon3 } from "assets/icons/productsservices-cards-3.svg";
+import { ReactComponent as CardIcon4 } from "assets/icons/productsservices-cards-4.svg";
+import { ReactComponent as CardIcon5 } from "assets/icons/productsservices-cards-5.svg";
 import "./ProductsServices.scss";
+import Footer from "components/Footer";
 
 const ProductsServices = () => {
   useEffect(() => {
@@ -55,6 +58,40 @@ const ProductsServices = () => {
           </div>
         </section>
       </article>
+      <article className="mining">
+        <section className="group container">
+          <div className="block">
+            <h1>Green Mining</h1>
+            <p>
+              PowrAI is committed to using green energy for our mining
+              operations, <br /> reducing our carbon footprint and promoting
+              sustainability.
+            </p>
+          </div>
+          <div className="block">
+            <h2>Sustainability Efforts</h2>
+            <div className="cards">
+              <div className="card">
+                <CardIcon4 />
+                <h3>Renewable Energy</h3>
+                <p>
+                  Our data centers in Norway utilize renewable energy sources
+                  such as hydro and wind power.
+                </p>
+              </div>
+              <div className="card">
+                <CardIcon5 />
+                <h3>Environmental Responsibility</h3>
+                <p>
+                  We strive to minimize our impact on the environment through
+                  sustainable practices and continuous innovation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <Footer />
     </main>
   );
 };
