@@ -21,7 +21,7 @@ const Header = () => {
           PowrAI Token
         </Link>
         <nav className="nav">
-          <Link to="/about-us" className={`nav-desktop `}>
+          <Link to="/about-us" className={`nav-desktop`}>
             About Us
           </Link>
 
