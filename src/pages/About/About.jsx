@@ -78,9 +78,9 @@ const About = () => {
           <h1>Company History</h1>
           <p>
             Founded in 2023, PowrAI has rapidly grown to become a leader in
-            sustainable bitcoin mining. Our innovative approach combines
+            sustainable bitcoin mining.<br /> Our innovative approach combines
             cutting-edge technology with a commitment to environmental
-            responsibility, setting new standards in the industry.
+            responsibility,<br /> setting new standards in the industry.
           </p>
         </div>
       </article>
