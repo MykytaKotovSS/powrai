@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "assets/icons/logo-blue.svg";
 import { ReactComponent as Copyright } from "assets/icons/copyright.svg";
 
-const Footer = () => {
+const Footer = ({ theme }) => {
   return (
-    <footer className="footer">
+    <footer className={`footer ${theme === "white" ? "theme-white" : ""}`}>
       <nav className="nav container">
         <Link to="/" className="logo">
           <Logo />
           PowrAI Token
         </Link>
-        <div className="group">
+        <div className={`group ${theme === "white" ? "theme-white" : ""}`}>
           <Link to="/about-us">About Us</Link>
 
           <Link to="#">How It Works</Link>

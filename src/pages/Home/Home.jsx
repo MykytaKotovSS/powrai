@@ -3,6 +3,7 @@ import Header from "components/Header";
 import Button from "components/Button";
 import { ReactComponent as Logo } from "assets/icons/logo-blue.svg";
 import "./Home.scss";
+import Footer from "components/Footer";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
           <Button>Learn More</Button>
         </section>
       </article>
+      <Footer theme="white"/>
     </main>
   );
 };

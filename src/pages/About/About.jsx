@@ -2,6 +2,7 @@ import React from "react";
 import Header from "components/Header";
 import { ReactComponent as Logo } from "assets/icons/logo-blue.svg";
 import "./About.scss";
+import Footer from "components/Footer";
 
 const About = () => {
   return (
@@ -79,6 +80,7 @@ const About = () => {
           </p>
         </div>
       </article>
+      <Footer />
     </main>
   );
 };
