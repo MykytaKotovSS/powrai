@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "components/Header";
 
 function App() {
   return (
     <Router>
-      {/* <Header /> */}
+      <Header />
       <Routes>
         <Route path="/about-us" element={<p>About us</p>} />
         <Route path="/" element={<p>Home</p>} />
