@@ -27,7 +27,7 @@ const ProductsServices = () => {
               </h3>
             </div>
           </div>
-          <div className="row">
+          <div className="cards">
             <div className="card">
               <CardIcon1 />
               <h3>Real-Time Monitoring</h3>
