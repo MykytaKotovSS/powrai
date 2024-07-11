@@ -15,17 +15,17 @@ const Footer = () => {
         <div className="group">
           <Link to="/about-us">About Us</Link>
 
-          <Link to="/">How It Works</Link>
+          <Link to="#">How It Works</Link>
 
-          <Link to="/">Products & Services</Link>
+          <Link to="#">Products & Services</Link>
 
-          <Link to="/">Tokenomics</Link>
+          <Link to="#">Tokenomics</Link>
 
-          <Link to="/">Roadmap</Link>
+          <Link to="#">Roadmap</Link>
 
-          <Link to="/">FAQ</Link>
+          <Link to="#">FAQ</Link>
 
-          <Link to="/">Blog</Link>
+          <Link to="#">Blog</Link>
         </div>
       </nav>
       <nav className="links container">

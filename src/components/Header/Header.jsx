@@ -25,32 +25,32 @@ const Header = () => {
             About Us
           </Link>
 
-          <Link to="/" className={`nav-desktop`}>
+          <Link to="#" className={`nav-desktop`}>
             How It Works
           </Link>
 
-          <Link to="/" className={`nav-desktop`}>
+          <Link to="#" className={`nav-desktop`}>
             Products & Services
           </Link>
 
-          <Link to="/" className={`nav-desktop`}>
+          <Link to="#" className={`nav-desktop`}>
             Tokenomics
           </Link>
 
-          <Link to="/" className={`nav-desktop`}>
+          <Link to="#" className={`nav-desktop`}>
             Roadmap
           </Link>
 
-          <Link to="/" className={`nav-desktop`}>
+          <Link to="#" className={`nav-desktop`}>
             FAQ
           </Link>
 
-          <Link to="/" className={`nav-desktop`}>
+          <Link to="#" className={`nav-desktop`}>
             Blog
           </Link>
         </nav>
         <div className="contact">
-          <Link to="/">
+          <Link to="#">
             Contact us
           </Link>
         </div>
