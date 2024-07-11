@@ -2,7 +2,6 @@ import "./Header.scss";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "assets/icons/logo-black.svg";
-import { ReactComponent as Chats } from "assets/icons/logo-white.svg";
 import { ReactComponent as ChatsMobile } from "assets/icons/logo-white.svg";
 import { ReactComponent as Open } from "assets/icons/logo-white.svg";
 import { ReactComponent as Close } from "assets/icons/logo-white.svg";
@@ -52,7 +51,6 @@ const Header = () => {
         </nav>
         <div className="contact">
           <Link to="/">
-            <Chats />
             Contact us
           </Link>
         </div>
