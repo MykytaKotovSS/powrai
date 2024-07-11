@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Header from "components/Header";
-import image from "assets/images/productsservices-main-img.svg";
+import image1 from "assets/images/productsservices-main-img.svg";
+import image2 from "assets/images/productsservices-bottom-1.jpg";
+import image3 from "assets/images/productsservices-bottom-2.jpg";
 import { ReactComponent as CardIcon1 } from "assets/icons/productsservices-cards-1.svg";
 import { ReactComponent as CardIcon2 } from "assets/icons/productsservices-cards-2.svg";
 import { ReactComponent as CardIcon3 } from "assets/icons/productsservices-cards-3.svg";
@@ -8,6 +10,7 @@ import { ReactComponent as CardIcon4 } from "assets/icons/productsservices-cards
 import { ReactComponent as CardIcon5 } from "assets/icons/productsservices-cards-5.svg";
 import "./ProductsServices.scss";
 import Footer from "components/Footer";
+import Button from "components/Button";
 
 const ProductsServices = () => {
   useEffect(() => {
@@ -20,7 +23,7 @@ const ProductsServices = () => {
         <Header />
         <section className="top container">
           <div className="row">
-            <img src={image} alt="products" />
+            <img src={image1} alt="products" />
             <div className="text">
               <h2>MeasureX Software</h2>
               <h3>
@@ -89,6 +92,54 @@ const ProductsServices = () => {
               </div>
             </div>
           </div>
+        </section>
+      </article>
+      <article className="bottom">
+        <section className="block">
+          <h1>Mining Hardware</h1>
+          <div className="group">
+            <img src={image2} alt="products" />
+            <div className="cards">
+              <div className="card">
+                <h3>Details</h3>
+                <p>
+                  PowrAI uses state-of-the-art mining hardware to ensure maximum
+                  efficiency and profitability.
+                </p>
+              </div>
+              <div className="card">
+                <h3>Specifications</h3>
+                <p>
+                  Learn more about the advanced technology behind our mining
+                  operations.
+                </p>
+              </div>
+            </div>
+          </div>
+          <Button>Learn more</Button>
+        </section>
+        <section className="block">
+          <h1>Utility Services</h1>
+          <div className="group">
+            <div className="cards">
+              <div className="card">
+                <h3>Electricity and Support Services</h3>
+                <p>
+                  Use PowrAI Utility Tokens to purchase electricity and support
+                  services with significant rebates.
+                </p>
+              </div>
+              <div className="card">
+                <h3>Mining Equipment</h3>
+                <p>
+                  Buy high-quality mining equipment using PowrAI Utility Tokens
+                  at discounted rates.
+                </p>
+              </div>
+            </div>
+            <img src={image3} alt="products" />
+          </div>
+          <Button>Learn more</Button>
         </section>
       </article>
       <Footer />
