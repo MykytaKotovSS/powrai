@@ -32,4 +32,52 @@
       }
     }
   }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 40px auto;
+
+    .row-one {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+
+      div:nth-child(1) {
+        width: 816px;
+      }
+
+      div:nth-child(2) {
+        width: 336px;
+      }
+    }
+
+    .row-two {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+
+      div:nth-child(1) {
+        width: 336px;
+      }
+
+      div:nth-child(2) {
+        width: 336px;
+      }
+
+      div:nth-child(3) {
+        width: 456px;
+      }
+    }
+
+    .card {
+      background: $grey-light;
+      padding: 24px 16px;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
 }

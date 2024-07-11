@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "components/Header";
 import { ReactComponent as Logo } from "assets/icons/logo-blue.svg";
 import "./About.scss";
 import Footer from "components/Footer";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <main className="about">
       <article className="main">
