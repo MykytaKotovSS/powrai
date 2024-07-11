@@ -25,12 +25,20 @@
       line-height: 20px;
       align-items: center;
       gap: 8px;
+
+      &.theme-white {
+        color: white;
+      }
     }
 
     .nav {
       display: flex;
       gap: 16px;
       margin: 0;
+
+      &.theme-white {
+        color: white;
+      }
 
       .nav-desktop {
         @media (max-width: 768px) {

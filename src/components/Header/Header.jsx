@@ -1,12 +1,13 @@
 import "./Header.scss";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as Logo } from "assets/icons/logo-black.svg";
+import { ReactComponent as LogoBlack } from "assets/icons/logo-black.svg";
+import { ReactComponent as LogoWhite } from "assets/icons/logo-white.svg";
 import { ReactComponent as ChatsMobile } from "assets/icons/logo-white.svg";
 import { ReactComponent as Open } from "assets/icons/logo-white.svg";
 import { ReactComponent as Close } from "assets/icons/logo-white.svg";
 
-const Header = () => {
+const Header = ({ theme }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -16,11 +17,14 @@ const Header = () => {
   return (
     <header className="header">
       <div className="menu container">
-        <Link to="/" className="logo">
-          <Logo />
+        <Link
+          to="/"
+          className={`logo ${theme === "white" ? "theme-white" : ""}`}
+        >
+          {theme === "white" ? <LogoWhite /> : <LogoBlack />}
           PowrAI Token
         </Link>
-        <nav className="nav">
+        <nav className={`nav ${theme === "white" ? "theme-white" : ""}`}>
           <Link to="/about-us" className={`nav-desktop`}>
             About Us
           </Link>
@@ -50,9 +54,7 @@ const Header = () => {
           </Link>
         </nav>
         <div className="contact">
-          <Link to="#">
-            Contact us
-          </Link>
+          <Link to="#">Contact us</Link>
         </div>
         <div className="contact-mobile" style={{ display: "none" }}>
           <Link to="/contact-us">
