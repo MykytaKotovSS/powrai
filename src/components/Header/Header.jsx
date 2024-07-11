@@ -1,7 +1,7 @@
 import "./Header.scss";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as Logo } from "assets/icons/logo-white.svg";
+import { ReactComponent as Logo } from "assets/icons/logo-black.svg";
 import { ReactComponent as Chats } from "assets/icons/logo-white.svg";
 import { ReactComponent as ChatsMobile } from "assets/icons/logo-white.svg";
 import { ReactComponent as Open } from "assets/icons/logo-white.svg";
@@ -17,30 +17,46 @@ const Header = () => {
   return (
     <header className="header">
       <div className="menu container">
+        <Link to="/" className="logo">
+          <Logo />
+          PowrAI Token
+        </Link>
         <nav className="nav">
-          <Link to="/" className="logo">
-            <Logo />
-            Libralink
-          </Link>
           <Link to="/about-us" className={`nav-desktop `}>
             About Us
           </Link>
 
-          <Link to="/services" className={`nav-desktop`}>
-            Services
+          <Link to="/" className={`nav-desktop`}>
+            How It Works
           </Link>
 
-          <Link to="/sustainability" className={`nav-desktop`}>
-            Sustainability
+          <Link to="/" className={`nav-desktop`}>
+            Products & Services
+          </Link>
+
+          <Link to="/" className={`nav-desktop`}>
+            Tokenomics
+          </Link>
+
+          <Link to="/" className={`nav-desktop`}>
+            Roadmap
+          </Link>
+
+          <Link to="/" className={`nav-desktop`}>
+            FAQ
+          </Link>
+
+          <Link to="/" className={`nav-desktop`}>
+            Blog
           </Link>
         </nav>
         <div className="contact">
-          <Link to="/contact-us">
+          <Link to="/">
             <Chats />
             Contact us
           </Link>
         </div>
-        <div className="contact-mobile">
+        <div className="contact-mobile" style={{ display: "none" }}>
           <Link to="/contact-us">
             <ChatsMobile />
           </Link>
