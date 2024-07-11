@@ -80,6 +80,13 @@ const Home = () => {
           </div>
         </div>
       </article>
+      <article className="mission">
+        <section className="block container">
+          <h1>PowrAI’s mission and values</h1>
+          <div className="image"></div>
+          <Button>See more about PowrAI’s</Button>
+        </section>
+      </article>
       <Footer theme="white" />
     </main>
   );
