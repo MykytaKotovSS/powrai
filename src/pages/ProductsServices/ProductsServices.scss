@@ -1,0 +1,44 @@
+@import "styles/colors.scss";
+
+.products-services {
+  .main {
+    height: 700px;
+    background-image: url("/assets/images/productsservices-main-bg.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+
+    .top {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+      margin-top: 48px;
+
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+
+        .text {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+        }
+
+        .card {
+          width: 100%;
+          height: auto;
+          background: black;
+          color: white;
+          padding: 24px 16px;
+          border-radius: 16px;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+        }
+      }
+    }
+  }
+}

@@ -33,7 +33,7 @@ const Header = ({ theme }) => {
             How It Works
           </Link>
 
-          <Link to="#" className={`nav-desktop`}>
+          <Link to="/products-services" className={`nav-desktop`}>
             Products & Services
           </Link>
 

@@ -17,7 +17,7 @@ const Footer = ({ theme }) => {
 
           <Link to="#">How It Works</Link>
 
-          <Link to="#">Products & Services</Link>
+          <Link to="/products-services">Products & Services</Link>
 
           <Link to="#">Tokenomics</Link>
 
