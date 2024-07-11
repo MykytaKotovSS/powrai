@@ -95,7 +95,7 @@ const ProductsServices = () => {
         </section>
       </article>
       <article className="bottom">
-        <section className="block">
+        <section className="block container">
           <h1>Mining Hardware</h1>
           <div className="group">
             <img src={image2} alt="products" />
@@ -118,7 +118,7 @@ const ProductsServices = () => {
           </div>
           <Button>Learn more</Button>
         </section>
-        <section className="block">
+        <section className="block container">
           <h1>Utility Services</h1>
           <div className="group">
             <div className="cards">
