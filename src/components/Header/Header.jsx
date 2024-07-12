@@ -54,7 +54,7 @@ const Header = ({ theme }) => {
           </Link>
         </nav>
         <div className="contact">
-          <Link to="#">Contact us</Link>
+          <Link to="/contact-us">Contact us</Link>
         </div>
         <div className="contact-mobile" style={{ display: "none" }}>
           <Link to="/contact-us">

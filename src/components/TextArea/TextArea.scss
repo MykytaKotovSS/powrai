@@ -1,0 +1,47 @@
+@import "styles/colors.scss";
+
+.textAreaContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+}
+
+.textArea {
+  padding: 16px;
+  font-size: 18px;
+  line-height: 32px;
+  color: black;
+  background: $grey-light;
+  border: 1px solid white;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+  min-height: 112px;
+}
+
+.textArea::placeholder {
+  color: black;
+}
+
+.textArea:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.errorContainer {
+  border-color: red;
+}
+
+.errorTextArea {
+  border-color: red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+}
