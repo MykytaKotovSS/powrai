@@ -3,6 +3,9 @@ import Header from "components/Header";
 import image1 from "assets/images/blog-main-1.jpg";
 import image2 from "assets/images/blog-main-2.jpg";
 import image3 from "assets/images/blog-main-3.jpg";
+import image4 from "assets/images/blog-bottom-1.jpg";
+import image5 from "assets/images/blog-bottom-2.jpg";
+import image6 from "assets/images/blog-bottom-3.jpg";
 import { Link } from "react-router-dom";
 import "./Blog.scss";
 import Footer from "components/Footer";
@@ -50,7 +53,46 @@ const ProductsServices = () => {
           </Link>
         </section>
       </article>
-
+      <article className="bottom">
+        <section className="top container">
+          <h1>Additional Posts</h1>
+          <div className="cards">
+            <div className="card">
+              <img src={image4} alt="card" />
+              <div className="text">
+                <h3>The Benefits of Using PowrAI Utility Tokens</h3>
+                <p>
+                  Find out how you can save on services like electricity and
+                  mining equipment with PowrAI Utility Tokens.
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <img src={image5} alt="card" />
+              <div className="text">
+                <h3>Deep Dive into PowrAI's Staking Rewards</h3>
+                <p>
+                  Understand how staking PowrAI Utility Tokens can earn you
+                  additional rewards and contribute to network security.
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <img src={image6} alt="card" />
+              <div className="text">
+                <h3>PowrAI's Commitment to Environmental Responsibility</h3>
+                <p>
+                  Read about our initiatives to reduce our carbon footprint and
+                  promote sustainability in cryptocurrency mining.
+                </p>
+              </div>
+            </div>
+          </div>
+          <Link to="#">
+            <Button>Read all posts</Button>
+          </Link>
+        </section>
+      </article>
       <Footer />
     </main>
   );
