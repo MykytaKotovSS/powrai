@@ -1,0 +1,22 @@
+@import "styles/colors.scss";
+
+.faq {
+  .main {
+    .top {
+      margin: 24px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      h1 {
+        text-align: center;
+      }
+
+      .questions {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+      }
+    }
+  }
+}

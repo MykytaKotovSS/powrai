@@ -7,6 +7,7 @@ import ContactUs from "pages/ContactUs";
 import Roadmap from "pages/Roadmap";
 import HowItWorks from "pages/HowItWorks";
 import Tokenomics from "pages/Tokenomics";
+import Faq from "pages/Faq";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/tokenomics" element={<Tokenomics />} />
+        <Route path="/faq" element={<Faq />} />
       </Routes>
     </Router>
   );

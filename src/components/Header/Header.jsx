@@ -45,7 +45,7 @@ const Header = ({ theme }) => {
             Roadmap
           </Link>
 
-          <Link to="#" className={`nav-desktop`}>
+          <Link to="/faq" className={`nav-desktop`}>
             FAQ
           </Link>
 

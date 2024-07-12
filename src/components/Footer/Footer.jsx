@@ -23,7 +23,7 @@ const Footer = ({ theme }) => {
 
           <Link to="/roadmap">Roadmap</Link>
 
-          <Link to="#">FAQ</Link>
+          <Link to="/faq">FAQ</Link>
 
           <Link to="#">Blog</Link>
         </div>
