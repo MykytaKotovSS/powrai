@@ -49,9 +49,9 @@ const Header = ({ theme }) => {
             FAQ
           </Link>
 
-          {/* <Link to="#" className={`nav-desktop`}>
+          <Link to="/blog" className={`nav-desktop`}>
             Blog
-          </Link> */}
+          </Link>
         </nav>
         <div className="contact">
           <Link to="/contact-us">Contact us</Link>

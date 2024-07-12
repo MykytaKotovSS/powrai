@@ -8,6 +8,7 @@ import Roadmap from "pages/Roadmap";
 import HowItWorks from "pages/HowItWorks";
 import Tokenomics from "pages/Tokenomics";
 import Faq from "pages/Faq";
+import Blog from "pages/Blog";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/tokenomics" element={<Tokenomics />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </Router>
   );
