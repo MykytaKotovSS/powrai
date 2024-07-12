@@ -37,7 +37,7 @@ const Header = ({ theme }) => {
             Products & Services
           </Link>
 
-          <Link to="#" className={`nav-desktop`}>
+          <Link to="/tokenomics" className={`nav-desktop`}>
             Tokenomics
           </Link>
 

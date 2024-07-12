@@ -6,6 +6,7 @@ import ProductsServices from "pages/ProductsServices";
 import ContactUs from "pages/ContactUs";
 import Roadmap from "pages/Roadmap";
 import HowItWorks from "pages/HowItWorks";
+import Tokenomics from "pages/Tokenomics";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/tokenomics" element={<Tokenomics />} />
       </Routes>
     </Router>
   );
