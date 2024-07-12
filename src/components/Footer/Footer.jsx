@@ -21,7 +21,7 @@ const Footer = ({ theme }) => {
 
           <Link to="#">Tokenomics</Link>
 
-          <Link to="#">Roadmap</Link>
+          <Link to="/roadmap">Roadmap</Link>
 
           <Link to="#">FAQ</Link>
 

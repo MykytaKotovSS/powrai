@@ -41,7 +41,7 @@ const Header = ({ theme }) => {
             Tokenomics
           </Link>
 
-          <Link to="#" className={`nav-desktop`}>
+          <Link to="/roadmap" className={`nav-desktop`}>
             Roadmap
           </Link>
 
