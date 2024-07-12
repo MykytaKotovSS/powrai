@@ -15,7 +15,7 @@ const Footer = ({ theme }) => {
         <div className={`group ${theme === "white" ? "theme-white" : ""}`}>
           <Link to="/about-us">About Us</Link>
 
-          <Link to="#">How It Works</Link>
+          <Link to="/how-it-works">How It Works</Link>
 
           <Link to="/products-services">Products & Services</Link>
 

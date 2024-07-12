@@ -5,6 +5,7 @@ import Home from "pages/Home";
 import ProductsServices from "pages/ProductsServices";
 import ContactUs from "pages/ContactUs";
 import Roadmap from "pages/Roadmap";
+import HowItWorks from "pages/HowItWorks";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/products-services" element={<ProductsServices />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/roadmap" element={<Roadmap />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
       </Routes>
     </Router>
   );

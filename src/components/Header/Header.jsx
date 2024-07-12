@@ -29,7 +29,7 @@ const Header = ({ theme }) => {
             About Us
           </Link>
 
-          <Link to="#" className={`nav-desktop`}>
+          <Link to="/how-it-works" className={`nav-desktop`}>
             How It Works
           </Link>
 
