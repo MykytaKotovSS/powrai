@@ -80,4 +80,30 @@
       }
     }
   }
+
+  .bottom {
+    background: $grey-light;
+    padding: 48px 0;
+
+    .block {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      h1 {
+        text-align: center;
+      }
+
+      .card {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 16px;
+        background: black;
+        color: white;
+        border-radius: 16px;
+        padding: 24px 16px;
+      }
+    }
+  }
 }

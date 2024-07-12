@@ -6,6 +6,8 @@ import Footer from "components/Footer";
 import { ReactComponent as Database } from "assets/icons/database.svg";
 import { ReactComponent as CreditHeart } from "assets/icons/credit_card_heart.svg";
 import { ReactComponent as BusinessCenter } from "assets/icons/business_center.svg";
+import { ReactComponent as AwardStar } from "assets/icons/award_star.svg";
+import { ReactComponent as Recycling } from "assets/icons/recycling.svg";
 
 const Tokenomics = () => {
   useEffect(() => {
@@ -76,6 +78,31 @@ const Tokenomics = () => {
               <p>
                 Use PowrAI Utility Tokens to buy electricity, support services,
                 and mining equipment on our platform.
+              </p>
+            </div>
+          </div>
+        </section>
+      </article>
+      <article className="bottom">
+        <section className="block container">
+          <h1>Economic Model</h1>
+          <div className="card">
+            <Recycling />
+            <div className="text">
+              <h3>Buyback and Burn Program</h3>
+              <p>
+                A portion of the revenue is used to buy back and burn PowrAI
+                tokens, reducing supply and increasing value.
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <AwardStar />
+            <div className="text">
+              <h3>Staking Rewards</h3>
+              <p>
+                Understand how staking PowrAI Utility Tokens can earn you
+                additional rewards and contribute to network security.
               </p>
             </div>
           </div>
