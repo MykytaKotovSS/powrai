@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Header from "components/Header";
 import Button from "components/Button";
+import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "assets/icons/logo-blue.svg";
 import { ReactComponent as CardIcon1 } from "assets/icons/home-cards-1.svg";
 import { ReactComponent as CardIcon2 } from "assets/icons/home-cards-2.svg";
@@ -27,7 +28,9 @@ const Home = () => {
           <h1>
             Empowering Crypto Investors through Sustainable Bitcoin Mining
           </h1>
-          <Button>Learn More</Button>
+          <Link to="#">
+            <Button>Learn More</Button>
+          </Link>
         </section>
       </article>
       <article className="cards container">
@@ -84,7 +87,9 @@ const Home = () => {
         <section className="block container">
           <h1>PowrAI’s mission and values</h1>
           <div className="image"></div>
-          <Button>See more about PowrAI’s</Button>
+          <Link to="#">
+            <Button>See more about PowrAI’s</Button>
+          </Link>
         </section>
       </article>
       <Footer theme="white" />

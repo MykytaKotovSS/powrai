@@ -25,7 +25,7 @@ const Footer = ({ theme }) => {
 
           <Link to="/faq">FAQ</Link>
 
-          <Link to="#">Blog</Link>
+          {/* <Link to="#">Blog</Link> */}
         </div>
       </nav>
       <nav className="links container">
