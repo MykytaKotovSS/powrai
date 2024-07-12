@@ -6,7 +6,7 @@ import Input from "components/Input/Input";
 import TextArea from "components/TextArea";
 import emailjs from "emailjs-com";
 import Header from "components/Header";
-import image from "assets/images/contactus-main.jpg";
+import image from "assets/images/contactus-main.png";
 import { ReactComponent as Mail } from "assets/icons/mail.svg";
 import { ReactComponent as Globe } from "assets/icons/globe.svg";
 import { ReactComponent as Home } from "assets/icons/home.svg";
@@ -53,13 +53,13 @@ const ContactUs = () => {
                 <p>
                   <Mail /> Email
                 </p>
-                <h3>info@powrai.com</h3>
+                <h3>info@powrtoken.ai</h3>
               </div>
               <div className="element">
                 <p>
                   <Globe /> Website
                 </p>
-                <h3>www.powrai.com</h3>
+                <h3>powrtoken.ai</h3>
               </div>
               <div className="element">
                 <p>

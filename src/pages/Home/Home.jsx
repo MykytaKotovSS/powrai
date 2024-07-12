@@ -28,7 +28,7 @@ const Home = () => {
           <h1>
             Empowering Crypto Investors through Sustainable Bitcoin Mining
           </h1>
-          <Link to="#">
+          <Link to="/products-services">
             <Button>Learn More</Button>
           </Link>
         </section>
@@ -87,7 +87,7 @@ const Home = () => {
         <section className="block container">
           <h1>PowrAI’s mission and values</h1>
           <div className="image"></div>
-          <Link to="#">
+          <Link to="/about-us">
             <Button>See more about PowrAI’s</Button>
           </Link>
         </section>

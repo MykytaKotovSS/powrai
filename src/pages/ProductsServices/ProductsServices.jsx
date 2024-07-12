@@ -117,7 +117,7 @@ const ProductsServices = () => {
               </div>
             </div>
           </div>
-          <Link to="#">
+          <Link to="#" style={{ display: "none" }}>
             <Button>Learn more</Button>
           </Link>
         </section>
@@ -142,7 +142,7 @@ const ProductsServices = () => {
             </div>
             <img src={image3} alt="products" />
           </div>
-          <Link to="#">
+          <Link to="#" style={{ display: "none" }}>
             <Button>Learn more</Button>
           </Link>
         </section>

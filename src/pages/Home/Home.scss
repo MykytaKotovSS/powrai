@@ -82,7 +82,7 @@
   }
 
   .mission {
-    height: 960px;
+    // height: 960px;
     background: black;
 
     .block {
@@ -103,6 +103,7 @@
         height: 600px;
         background: $grey-light;
         border-radius: 24px;
+        display: none;
       }
     }
   }
